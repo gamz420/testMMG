@@ -1,0 +1,109 @@
+.imgLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.startForm {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px blue;
+}
+
+h1 {
+  font-size: 50px;
+  width: 30%;
+  color: white;
+}
+
+.socialNetwork {
+  display: flex;
+  width: 20%;
+  margin-bottom: 1%;
+}
+
+h3 {
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+.imgSocialNetwork {
+  width: 60px;
+  border-radius: 30px;
+  margin-right: 5%;
+}
+
+.iconsSocNet {
+  width: 100%;
+}
+
+.pText {
+  display: flex;
+}
+
+.mailForm {
+  display: flex;
+  width: 20%;
+}
+
+.mailBox {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 2px red; */
+}
+
+input {
+  width: 302px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-bottom: 8%;
+}
+
+button {
+  width: 310px;
+  height: 70px;
+  background: #ffc612;
+  border-radius: 4px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+@media (max-width: 855px) {
+  h1 {
+    font-size: 30px;
+    width: 40%;
+    color: white;
+  }
+  .socialNetwork {
+    width: 100%;
+    border: solid 2px red;
+  }
+  /* input {
+    width: 102px;
+    height: 50px;
+    margin-left: 5%;
+    margin-bottom: 8%;
+  }
+
+  button {
+    width: 310px;
+    height: 70px;
+    font-size: 40px;
+  } */
+}
